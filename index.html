@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiltzo CS2 Squad Dossier</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { text-align: center; color: var(--accent); letter-spacing: 1px; }
+    
+    /* Tabbed Navigation Styling */
+    .tabs { display: flex; gap: 0.5rem; border-bottom: 2px solid var(--card-bg); padding-bottom: 0.5rem; margin-bottom: 1.5rem; overflow-x: auto; }
+    .tab-btn {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid transparent;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--accent);
+      color: #000;
+    }
+    
+    /* Player Panel Content */
+    .player-panel { display: none; background: var(--card-bg); padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+    .player-panel.active { display: block; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.4rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TILTZO CS2 ROSTER DOSSIER</h1>
+    
+    <!-- Tab Controls Generated Dynamically -->
+    <div class="tabs" id="tabContainer">
+      <!-- MAKE_TAB_BUTTONS -->
+    </div>
+
+    <!-- Player Panels Generated Dynamically -->
+    <div id="contentContainer">
+      <!-- MAKE_PLAYER_PANELS -->
+    </div>
+  </div>
+
+  <script>
+    function openTab(evt, playerId) {
+      document.querySelectorAll('.player-panel').forEach(panel => panel.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(playerId).classList.add('active');
+      evt.currentTarget.classList.add('active');
+    }
+  </script>
+</body>
+</html>
