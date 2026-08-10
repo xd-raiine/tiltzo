@@ -1,216 +1,330 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Tiltzo CS2 Squad Dossier</title><style>:root{--bg:#0f172a;--card-bg:#1e293b;--accent:#38bdf8;--text:#f8fafc;--text-muted:#94a3b8}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background-color:var(--bg);color:var(--text);margin:0;padding:2rem}.container{max-width:900px;margin:0 auto}h1,h2{color:var(--accent)}h3{color:#67e8f9}.tabs{display:flex;gap:0.5rem;border-bottom:2px solid var(--card-bg);padding-bottom:0.5rem;margin-bottom:1.5rem;overflow-x:auto}.tab-btn{background:var(--card-bg);color:var(--text-muted);border:1px solid transparent;padding:0.6rem 1.2rem;border-radius:6px;cursor:pointer;font-weight:600;transition:all 0.2s ease}.tab-btn.active,.tab-btn:hover{background:var(--accent);color:#000}.player-panel{display:none;background:var(--card-bg);padding:1.5rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.3)}.player-panel.active{display:block !important}ul{padding-left:1.2rem}li{margin-bottom:0.4rem}</style></head><body><div class="container"><h1>TILTZO CS2 ROSTER DOSSIER</h1><div class="tabs"><button class="tab-btn" onclick="openTab(event, 'player-76561198043894092')">Unrivaled Super Hottie</button>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Tiltzo CS2 Squad Dossier</title><script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script><style>:root{--bg:#0f172a;--card-bg:#1e293b;--accent:#38bdf8;--text:#f8fafc;--text-muted:#94a3b8}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background-color:var(--bg);color:var(--text);margin:0;padding:2rem}.container{max-width:900px;margin:0 auto}h1,h2{color:var(--accent)}h3{color:#67e8f9}.tabs{display:flex;gap:0.5rem;border-bottom:2px solid var(--card-bg);padding-bottom:0.5rem;margin-bottom:1.5rem;overflow-x:auto}.tab-btn{background:var(--card-bg);color:var(--text-muted);border:1px solid transparent;padding:0.6rem 1.2rem;border-radius:6px;cursor:pointer;font-weight:600;transition:all 0.2s ease}.tab-btn.active,.tab-btn:hover{background:var(--accent);color:#000}.player-panel{display:none;background:var(--card-bg);padding:1.5rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.3)}.player-panel.active{display:block !important}ul{padding-left:1.2rem;line-height:1.6}li{margin-bottom:0.4rem}</style></head><body><div class="container"><h1>TILTZO CS2 ROSTER DOSSIER</h1><div class="tabs" id="tab-container"><button class="tab-btn active" onclick="openTab(event, 'squad-comp')">Squad Comp</button><button class="tab-btn" onclick="openTab(event, 'cross-player')">Cross-Player</button></div><div id="content-area"><div id="squad-comp" class="player-panel active"><h2>Squad Compositions & Analysis</h2><div class="markdown-body">
+
+</div></div><div id="cross-player" class="player-panel"><h2>Cross-Player Analysis</h2><div class="markdown-body">
+
+</div></div><div id="raw-data" style="display:none;">
+
+<button class="tab-btn" onclick="openTab(event, 'player-76561198043894092')">Unrivaled Super Hottie</button>
 <div id="player-76561198043894092" class="player-panel">
   <h2>Unrivaled Super Hottie</h2>
-  <div class="markdown-body">SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
+  <div class="markdown-body">## SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
 
-• PLAYER PROFILE & ROLE CLASSIFICATION: Unrivaled Super Hottie exhibits a balanced profile with solid aim rating (72.57) and utility rating (69.89), coupled with respectable positioning (64.43). Headshot accuracy sits at 31.31, suggesting competent mechanical fire but not a peak sniper profile. Opening duel win rates are mixed between CT (46.42) and T (44.16), indicating versatility but not a definitive aggressor. Overall win rate of 0.5357 across 249 parses indicates above-average impact but not dominant, suggesting a role leaning toward flexible support/entry utility rather than a pure star fragger. Archetype leaning: SPACE-CREATOR WITH RELIABLE SUPPORT UTILITY, capable of structuring mid-round space creation and proactive utility use, while needing refinement in precise crosshair placement and disciplined engage timing.
+- **PLAYER PROFILE & ROLE CLASSIFICATION:** Unrivaled Super Hottie presents as a high-variance, mechanically capable rifler with solid utility awareness. Core metrics suggest a hybrid archetype leaning toward an aggressive entry/space-creator with moderate anchor support capabilities. Aim Rating and Utility Rating are strong, while Positioning Rating trails slightly, indicating value in controlled space creation rather than pure unpredictable aggression. Headshot and spray metrics imply competent accuracy but with room to tighten recoil discipline and post-peak reset.
 
-• PERFORMANCE CEILING BOTTLENECK: The principal ceiling appears tied to reaction-delayed engagements and mid-round decision latency, as evidenced by reaction times around 594–656 ms and middling opening duel efficiency. Headshot accuracy at 31% combined with sub-40% enemy spotted accuracy hints at room foril improved micro-hard-aim discipline and more decisive pre-aiming. The gap between high aim/utility and lower positional-specialization metrics suggests the player can elevate team impact by tightening crosshair discipline, improving pre-fire/angle control, and enhancing trade potential in aggressive or anchor roles.
+- **PERFORMANCE CEILING BOTTLENECK:** The primary limiter appears to be Reaction Time latency combined with Opening Duel and Aggression efficiency in CT/T contexts. Reaction times around 590–660 ms are suboptimal for high-tempo matchups, contributing to missed first-moment trades and suboptimal initial engagements. Positioning at 64.4% indicates potential gaps in proactive angle control and trade presence, limiting impact in multi-frag rounds. Headshot accuracy at 31% plus sub-30% Enemy Spotted Accuracy and Spray Accuracy around 29% highlight a mechanical discipline gap under pressure and during rapid spray exchanges.
 
-• IMPACT VS. EFFICIENCY RATIO: Mechanical metrics (Aim 72.6, Reaction ~590 ms) do not translate into overwhelming round-winning stats given opening duel finals ~46% and CT/T duel equality around mid-40s. This implies current output yields steady fragging but not dominant round impact. The player shows efficient utility usage potential (Utility 69.89) that could be leveraged to convert more rounds, if combined with improved positioning and micro-angles. Overall, impact is solid but efficiency relative to risk should be optimized via smarter engagements and better team-based decision windows.
+- **IMPACT VS. EFFICIENCY RATIO:** High Aim Rating and decent Utility Rating imply strong potential to influence rounds through duels and healing team execution with utility. However, CT opening aggression success and Opening Duel Win Rate around mid-40s, combined with reaction delays, suggest mechanical output is not consistently converting into decisive round wins. The player often has raw firepower but may underperform in translating it into coordinated team actions in high-stress environments.
 
-SECTION 2: DEEP MECHANICAL DIAGNOSTIC
+---
 
-• CROSSHAIR PLACEMENT & PRE-AIMING EFFICIENCY: With general aim metrics high but headshot accuracy at 31% and enemy spotted accuracy at 29.24%, there is evidence of reliance on raw reaction or late-stage trades rather than consistently optimal pre-aim and crosshair placement. The data suggests gaps in early corner pre-aim and angle hold at entry points. Time-to-damage dynamics (reaction around 594–656 ms) imply that micro-angles and pre-arming positions could be improved to reduce engagement time from first contact to damage.
+## SECTION 2: DEEP MECHANICAL DIAGNOSTIC
 
-• RECOIL & SPRAY DISCIPLINE: Spray accuracy 29.37% is moderate and paired with low headshot percentage—this indicates occasional full-spray disorganization or overextension in spray patterns without clean reset. The player may benefit from structured burst-recoil routines and reset timing to maximize headshot conversion per spray window.
+- **Crosshair Placement & Pre-Aiming Efficiency:**  
+  - Crosshair alignment data is not numerically provided, but the combination of decent Aim Rating with sub-40% environment-spotted metrics implies room to improve pre-aim discipline, especially on common angles post-rotations and site holds.  
+  - Time to Damage (ms) is implicitly constrained by Reaction Time data; micro-adjustments to pre-aim can reduce encounter initiation delay by 100–200 ms in many scenarios.
 
-• REACTION DELAY & ENGAGEMENT FIRST-TOUCH: Reaction times near 594 ms (recent) and 656 ms (overall) place physical reflex latency as a noticeable limiter, particularly in high-speed CT-side confrontations and fast T-side peeks. Enemy spotted accuracy near 29.24% further hints at a tendency to engage with limited information, potentially due to angle-holding habits rather than proactive scouting. The combination of slower reaction and modest information acquisition suggests a need for improved anticipation, side-hold discipline, and enhanced pre-aim across common CT/execute routes.
+- **Recoil & Spray Discipline:**  
+  - Spray Accuracy ~29.37% with Headshot Rate ~31.31% indicates a tendency toward mid-to-long-range spray attempts without clean reset or controlled bursts.  
+  - Potential habit: overreliance on full-clip sprays in mid-range engagements rather than efficient burst-pulling and recoil resets, leading to wasted bullets and missed follow-ups.
 
-SECTION 3: POSITIONING, ANGLING & OPENING DUEL MACRO
+- **Reaction Delay & Engagement First-Touch:**  
+  - Reaction Time ~594 ms (recent) and ~656 ms overall indicates a physical lag in first contact with threats. This is a material bottleneck for entry fights and trade engagements.  
+  - Enemy Spotted Accuracy ~29.24% suggests limited immediate recognition of threat distribution, possibly due to delayed peeking or suboptimal scan routines.
 
-• OPENING ENGAGEMENT EFFICIENCY: Opening duel win rate being roughly 46% on CT and 44% on T indicates balanced performance but not exceptional edge in early engagements. This pattern can reflect reliance on structural advantages or equal odds dry peeks. Improvement opportunities exist in creating safer contact angles, more consistent pre-aim at common breach points, and better timing on aggression to convert initial duels into team-wide advantages.
+- **Inferential Synthesis:**  
+  - The player possesses high mechanical ceiling but is hampered by latency in first contact and less-than-ideal pre-aim discipline, which compounds decision-making gaps during chaotic rounds. The impact is more pronounced in CT aggressive duels and early-round space creation where speed dictates outcome.
 
-• SPACE CREATION VS. SURVIVAL: Positioning rating of 64.43 suggests competent off-angle usage and site-control potential, yet not at the elite anchor level. The player may be operating in mid-tier off-angles with moderate trade capability. There is room to convert positional strength into stronger trades by anchoring safer lines and coordinating retreat paths that preserve team firepower during multi-peak holds or retakes.
+---
 
-• TRADE-KILL SUSCEPTIBILITY: The data implies potential vulnerability to isolation and limited retreat options after engagements, given average Duel Success around mid-40s and non-elite positioning. Without robust trade-back mechanics, the player risks being overwhelmed in sticky trades or favorable site entry fights. Reinforcing movement patterns that enable immediate support or quick pivot to safer angles could mitigate this risk.
+## SECTION 3: POSITIONING, ANGLING & OPENING DUEL MACRO
 
-SECTION 4: UTILITY & IMPACT MULTIPLIER
+- **OPENING ENGAGEMENT EFFICIENCY:**  
+  - Opening Duel Win Rate (CT: 46.42%, T: 44.16%) sits in the mid-40s range, indicating average to above-average success but not exceptional.  
+  - This pattern hints at wins driven more by momentary favorable angles or timing rather than consistent control of space and advantage creation.
 
-• UTILITY INVESTMENT RETURN: Utility rating is solid (69.89) but the explicit impact of utility on rounds is not shown in raw numbers. To maximize this multiplier, the player should integrate utility more proactively into default holds and execute-based rounds, rather than relying on reactive utility in deficit situations. If utility is executed in advance of contact and in comms-driven sequences, it should translate to more favorable post-utility duels and improved map control.
+- **SPACE CREATION vs. SURVIVAL:**  
+  - Positioning Rating at 64.43% suggests capable but not standout off-angle usage or site-anchor discipline. There is likely a mix of proactive space creation in some maps, with conservative or passive lines in others.  
+  - The data implies the player can be exploited in deep-site retakes or purer aggression rounds, where they don’t trade efficiently or trade too late.
 
-• FLASH & SMOKE INTEGRATION: Timing patterns are not visible in the data, but given the overall moderate reaction and opening duel metrics, a more deliberate integration of flashes and smokes during defaults and pre-plant scenarios could create safer entry paths and higher conversion in executes. The player should practice timing windows for post-plant or post-trade retakes, ensuring flashes land before entry attempts or in coordination with teammates to maximize flush potential and reduce counterplay effectiveness.
+- **TRADE-KILL SUSCEPTIBILITY:**  
+  - Moderate opening aggression success rates (CT: ~39.7%, T: ~37.9%) combined with mid-range duel success suggest vulnerability to multi-frag responses. The player may overstay in unfavorable fights or fail to pivot quickly for trades.
 
-SECTION 5: IDENTIFIED BAD HABITS & RECURRING TACTICAL FAULTS
+---
 
-1. HABIT 1 (GUNPLAY/MECANICAL): Moving while bursting and inconsistent spray discipline, leading to lost control during extended firefights and reduced headshot efficiency. Likely contributing to mid-round fragility and missed follow-up angles.
+## SECTION 4: UTILITY & IMPACT MULTIPLIER
 
-2. HABIT 2 (POSITIONING/ANGILING): Holding static, high-traffic or eco-friendly angles without pivoting to cover or trade. This reduces team protection value, increases entry frag risk, and can create dead-angle vulnerabilities during retakes or site clears.
+- **UTILITY INVESTMENT RETURN:**  
+  - Utility Rating near 69.89 signals meaningful contribution with util usage, but the dataset lacks direct mapping of utility usage to round impact (e.g., successful flashes, smokes, or post-plant denial).  
+  - Without explicit correlation data, assume utility is being deployed but not always optimally timed for team executes or post-plant hold phases.
 
-3. HABIT 3 (UTILITY/GAME SENSE): Wasting early-round utility without clear team information or synchronized calls. This reduces the impact of smoke flashes inOpening and can leave teammates without needed post-plant support in crunch moments.
+- **FLASH & SMOKE INTEGRATION:**  
+  - Timing in default setups vs. post-plant protocols is not explicitly quantified; given average aggression metrics, there is potential to improve the sequencing and synergy of flashes/smokes to maximize entry effectiveness and post-plant control.
 
-SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
+---
 
-• OPTIMAL PARTNERING: Pair this player with a teammate who excels at rapid information gathering and initiates early-space creation. A dedicated secondary entry or space-creating role who can trade efficiently and support with precise timing will maximize Unrivaled Super Hottie’s utility-driven plays. A map-wide approach could pair this player with a tight-spacing rifler/entry-fragger who can exploit early space while the player provides controlled utility and post-plant support.
+## SECTION 5: IDENTIFIED BAD HABITS & RECURRING TACTICAL FAULTS
 
-• DEFAULT STRATEGIC POSITIONING: On maps with clear anchor points and structured defaults (eg Mirage A-site, Overpass B-raps, Inferno Banana), place this player in a flexible anchor/support role who roams to create space, with emphasis on off-angles that leverage their positioning rating. Specifically, targeted setups like Mirage A-anchor or Inferno mid-utility lurk can maximize engagement conversion by enabling timely utility and reliable fragging while maintaining safe retreat options.
+- **Habit 1 (Gunplay/Mechanical):**  
+  - Over-reliance on full-swing sprays in mid-range fights; weak recoil resets leading to wasted bullets and missed follow-ups.
 
-• TEAM DYNAMIC ADJUSTMENTS: Emphasize comms-driven play where this player follows a designated initiator. Implement a clear pre-round call structure to ensure utility is deployed with team timing. Integrate drills that improve angle-switching and pre-aim prioritization in default and execute sequences to reduce reaction-latency-related delays.
+- **Habit 2 (Positioning/Angling):**  
+  - Static or high-traffic angle holds without timely pivot to safer positions or cross-angles. Potentially insufficient use of off-angles and space-pitting to force favorable duels.
 
-SECTION 7: ACTIONABLE DRILL ROADMAP
+- **Habit 3 (Utility/Game Sense):**  
+  - Early-round utility may be under-utilized or mis-timed relative to team information. This can lead to missed opportunities in map control or failed executes.
 
- drill 1: AIM/MECHANICAL ROUTINE
-• Objective: Improve pre-aim efficiency, reduce reaction-based engagements, and strengthen spray discipline.
-• Tools: Aim_Recoil, ReAL Bot, Prefire maps, aim maps with randomized angles.
-• Protocol: 4 x 15-minute sessions per week, focusing on burst-versus-spray pattern training. Include 10-minute warm-up of precise crosshair placement at common entry points (Apex/Counter-angles). End with 15-minute controlled duels to reinforce clean resets after sprays.
+---
 
-drill 2: POSITIONING & ANGLE DISCIPLINE
-• Objective: Increase off-angle effectiveness, improve trade potential, and reduce static, high-traffic play.
-• Tools: Deathmatch server, solo queue maps with forced off-angle opportunities, angle-holding exercises.
-• Protocol: 3 x 20-minute sessions focusing on rotating to safe positions after engagement, pivoting to support teammates, and practicing crosshair placement across common angles. Include 15 minutes of anti-flash discipline and after-plant repositioning drills.
+## SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
 
-drill 3: UTILITY & PROTOCOLS
-• Objective: Align utility usage with team theory, maximize post-plant control, and improve default timing.
-• Tools: Map-specific utility lineups, communication drills, recorded executes and walk-throughs.
-• Protocol: 2 x 40-minute sessions per week dedicated to rehearsing default smokes, flashes, and molotovs for 3 core maps. Implement live-fire drills with a designated caller to enforce timing and ensure utility is used proactively rather than reactively.
+- **OPTIMAL PARTNERING:**  
+  - Pair with a patient, high-IQ rifler or in-game leader who can generate space and provide timely utility; the partner should excel at processing information quickly to compensate for reaction latency—ideally a player who thrives in structured defaults and can convert space into trades.
 
-END OF DOCUMENT
+- **DEFAULT STRATEGIC POSITIONING:**  
+  - Map-specific quick anchor role in disciplined sites where space creation is central but requires less split-second reaction. Examples: Mirage A-Anchor with robust control of catwalk and apartments, Inferno B-second/long aggression with pre-aimed angles, or similar maps where utility-driven executes can anchor rounds.
 
-</div>
+- **ROLES WITHIN THE SQUAD:**  
+  - Use this player as an initiating pressure element in T-side defaults (with secondary support from a map-specific entry teammate) and as a controlled CT hold anchor leveraging utility to deny enemy advances.
+
+- **MAP POOL EMPHASIS:**  
+  - Focus on maps with clear, repeatable lines of aggression and less reliance on ultra-rapid reaction duels. Emphasize safer engages with pre-aim discipline and controlled sprays.
+
+---
+
+## SECTION 7: ACTIONABLE DRILL ROADMAP
+
+- **Drill 1 (Aim/Mechanical Routine):**  
+  - Drill focus: Recoil control and burst discipline.  
+  - Tools: ReAL Bot, Aim_Recoil maps, Prefire practice.  
+  - Parameters: 10–15 minutes per session, 5 days/week; target spraying only after 2–3 clean headshots in bursts; reset spray after every 8–10 bullets.  
+  - Objective: Improve recoil reset timing and reduce unnecessary sprays; increase headshot-to-aim ratio under pressure.
+
+- **Drill 2 (Positioning & Angle Discipline):**  
+  - Drill focus: Crosshair placement and off-angle mastery.  
+  - Tools: Deathmatch with enforced crosshair discipline, solo server practice for off-angle holds.  
+  - Parameters: 30 minutes per session, three times per week; deliberately hold precise safe angles, pivot to common trade positions, and practice pre-aim on repeated routes.  
+  - Objective: Increase accurate pre-aim on critical entry routes; reduce time to first contact.
+
+- **Drill 3 (Utility & Protocols):**  
+  - Drill focus: Proactive utility usage for default and post-plant scenarios.  
+  - Tools: Map-specific lineups, guided scrims with focus on execute timing.  
+  - Parameters: 20–25 minutes per session, 4 days per week; run through two primary executes per map, documenting success rate of entry vs. smoke/flash efficacy.  
+  - Objective: Enhance utility impact, ensure timing aligns with team calls, and improve post-plant control.
+
+---
+
+If you’d like, I can tailor these drills to your exact map pool and provide a week-by-week progression calendar aligned to your upcoming event calendar.</div>
 </div><button class="tab-btn" onclick="openTab(event, 'player-76561198046629160')">Arune</button>
 <div id="player-76561198046629160" class="player-panel">
   <h2>Arune</h2>
-  <div class="markdown-body">SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
+  <div class="markdown-body">## SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
 
-- PLAYER PROFILE & ROLE CLASSIFICATION: Arune presents as a high-impact mechanical player with solid win rate (0.6071) and premiere elo above average. Core ratings indicate strongest attribute in Aim, followed by Positioning and Utility to a lesser degree. Headshot accuracy is modest at 20.46%, suggesting proficiency with power peeking and micro-aim rather than consistent headshot farming. Reaction times are above typical pro thresholds (516-596 ms ranges cited), implying potential delays in disengagement or reaction-based plays; this often aligns with a role as a structured entry or space-creator when supported by teammates, but could indicate suboptimal mid-round adaptivity in dynamic fights. Overall, Arune fits a Hybrid Aggressive Entry / Space-Creator archetype with a mechanical ceiling that outpaces current tactical discipline.
+- **PLAYER PROFILE & Role Classification:** Arune presents as an above-average fragger with solid win rate (0.6071) and premiere elo. Core metrics indicate a high Aim Rating (70.19) but relatively middling Positioning (59.10) and Utility (54.47). Headshot Accuracy is moderate (20.46%), suggesting reliability in raw aim but not elite precision. Opening Duel metrics (CT: 45.35%, T: 45.75%) are average-to-solid, implying comfort in head-on engagements but not a consistent first-mover advantage. Reaction Times are slow by pro-CS benchmarks (Reaction Time ~516-596 ms; Recent Reaction ~516 ms), indicating a physical latency or suboptimal engagement timing. Overall archetype leans toward a high-skill, mechanically capable player who may function best as a Space-Creator/Entry-lite with room to improve utility discipline and site-anchor awareness.
 
-- PERFORMANCE CEILING BOTTLENECK: The primary limiter appears to be utility-driven impact and positioning discipline rather than raw aim. Utility Rating sits at 54.47% relatively lower than Aim (70.19) and Positioning (59.10), indicating underutilization of kit in execution phases and slower post-engagement decision-making. Opening duel win rates are near 45% with mixed CT/T-side aggression, suggesting a tendency to win primaries but rely on team structure to convert rounds. Reaction times are elevated, pointing to potential micro-angles and pre-aim adjustments not being leveraged consistently in high-pressure moments. The combination points to a ceiling tied to game sense, timing, and utility integration more than core mechanical capability.
+- **Performance Ceiling Bottleneck:** The primary bottleneck appears to be Positioning & Utility integration, compounded by Reaction Time variance. While Aim Rating is strong, the Translation to rounds is dampened by slower reactions in engagements and lack of aggressive, trade-ready positioning. Headshot and Spray figures show capability, but the combination of reaction latency and suboptimal utility usage reduces impact per round.
 
-- IMPACT VS EFFICIENCY RATIO: High mechanical outputs (Aim Rating, Spray Accuracy, Reaction) do not consistently translate into round-winning sequences, as indicated by mid-tier Opening Duel success and sub-peak Utility Rating. This implies that while the player can win duels, there may be missed follow-up, poor trade efficiency, or suboptimal use of utility during key moments (initiation, post-plant, retakes). The path to elevating impact is to tighten macro decision-making, improve post-engagement trades, and elevate proactive utility deployment that directly yields round advantages.
+- **Impact vs. Efficiency Ratio:** High mechanical outputs do not consistently translate to round-winning impact. Enemies Spotted Accuracy (33.17%) and Spray Accuracy (28.49%) suggest either reactive peeks or less controlled spray crosshairs in extended trades. The discrepancy between high aim and modest Impact per Round points toward suboptimal trade setups and insufficient team-oriented play (entry/support trade coordination). A more disciplined approach to engagements and utility-driven plays could elevate impact disproportionately to raw mechanical stats.
 
-SECTION 2: DEEP MECHANICAL DIAGNOSTIC
+---
 
-- CROSSHAIR PLACEMENT & PRE-AIMING EFFICIENCY: The data shows strong raw aim potential (Aim Rating 70.19) but suboptimal Headshot Accuracy (20.46%) relative to typical top-tier players who balance headshots with body hits. The gap suggests reliance on head-level flicks rather than sustained pre-aim discipline and crosshair placement that tracks commonly framed enemy positions. Time-to-damage metrics are not explicitly provided, but elevated Reaction Times combined with average Headshot % imply inconsistent micro-angles during engagements and occasional over-rotation into open space rather than clean peeks. Improvement target: raise consistent pre-aim levels by 10-15 degrees on common lines, reduce reliance on last-moment flicks, and increase steady-state head-level tracking during hold/repeat engagements.
+## SECTION 2: DEEP MECHANICAL DIAGNOSTIC
 
-- RECOIL & SPRAY DISCIPLINE: Spray Accuracy at 28.49% is middling; combined with Headshot Accuracy suggests efficient engagement when controlled but potential over-spraying when pressures mount. The data does not specify turret-like spray patterns or recoil reset discipline; however, the disparity between high Aim Rating and relatively modest Spray suggests a mix of controlled bursts with occasional overcommitment. Improvement target: enforce burst-control thresholds (2-4 bullets, then pause or reset) in drills; emphasize recoil management across spray patterns on AK/M4 variants; integrate burst timing with crosshair discipline for more accurate multi-kill situations.
+- **Crosshair Placement & Pre-Aiming Efficiency:**  
+  - Indirect indicators (Opening Duel success ~45% on both sides) imply reasonable pre-aiming but not exceptional.  
+  - No explicit crosshair degrees data; however, a 20.46% Headshot Accuracy with 28.49% Spray suggests a tendency to raw-fire rather than precise, staged pre-aims in dynamic duels.  
+  - Potential issue: reliance on flicks or frontal peeks rather than disciplined pre-aiming through common angles and lineups.
 
-- REACTION DELAY & ENGAGEMENT FIRST-TOUCH: Reaction Time values span 516–596 ms, with Recent Reaction at 516 ms—still above elite human reaction baselines (~150–250 ms). While in CS2 pro play, reaction time is less determinative than decision speed and positioning, a sub-600 ms reaction window is not catastrophic but suggests that many engagements are not initiated with instant first contact. Enemy Spotted Accuracy at 33.17% indicates a moderate track record of identifying opponents before engagement, but not consistently. Overall: reaction delay appears to be a physical limitation that compounds with angle-holding mechanics rather than pure anticipation. Improvement target: pair reaction-time optimism with pre-aim discipline; practice game-sense scenarios that require quick identification of silhouettes and pre-commit lines in default positions.
+- **Recoil & Spray Discipline:**  
+  - Spray Accuracy at 28.49% is modest; Headshot at 20.46% indicates a mixture of controlled bursts and occasional full-spray attempts.  
+  - Likely pattern: bursts followed by extended sprays in mid-range engagements, reducing overall headshot rate and efficiency.  
+  - Actionable interpretation: increase burst economy, practice reset after 2–3 bullets, especially in mid-range to long-range duels.
 
-SECTION 3: POSITIONING, ANGLING & OPENING DUEL MACRO
+- **Reaction Delay & Engagement First-Touch:**  
+  - Reaction Time metrics show 516 ms (Recent), 596 ms (Reaction), CT Opening Aggression ~36.8% (lower aggression).  
+  - Conclusion: Reaction latency is a substantive bottleneck for clean first-contact wins. This is likely a physical limitation or suboptimal first-contact positioning (peeking into unfavorable views).  
+  - Corollaries: Lower Enemies Spotted Accuracy (33.17%) may reflect cautious peeks or poor information-gathering leading to late decision-making.
 
-- OPENING ENGAGEMENT EFFICIENCY: Opening Duel Win Rate CT 45.35% and T 45.75% indicate near-even outcomes with slight edge on T side. This suggests that opening duels are not heavily biased by map control or team-wide structures but rather by coin-flip engagements. The agent appears not to disproportionately leverage early-round utility to create advantageous peeks, nor consistently win structured duels. Improvement target: deploy pre-set entry routes that maximize first contact advantage; coordinate with teammates to create advantageous crossfire or a soft push to convert mid-round advantages.
+---
 
-- SPACE CREATION VS SURVIVAL: Positioning Rating 59.10 points toward solid but not elite space creation. The data lacks explicit off-angle usage or anchor discipline metrics, but the combination with average CT/ T opening success implies a balance between aggressive space creation and fragility in trades. There may be moments of overextension in early-round aggression without reliable trade support. Improvement target: implement fixed off-angles with clear retreat lanes and chase-prediction trades; prioritize safe spaces with established cover to improve trade-kill efficiency.
+## SECTION 3: POSITIONING, ANGLING & OPENING DUEL MACRO
 
-- TRADE-KILL SUSCEPTIBILITY: With balanced opening rates and moderate positioning, Arune may be susceptible to poor retreat options following engagements, leading to failed trades in post-engagement scenarios. Improvement target: map-wise retreat patterns and safe-trade routes after unfavorable first-contact outcomes; train post-engagement re-trade sequences with teammates to ensure consistent conversions.
+- **Opening Engagement Efficiency:**  
+  - Opening Duel Win Rates are around 45.35% (CT) and 45.75% (T).  
+  - Interpretation: No clear edge on openings; engagements are balanced, suggesting coin-flip duels or neutral engagements rather than structural advantage plays.  
 
-SECTION 4: UTILITY & IMPACT MULTIPLIER
+- **Space Creation vs. Survival:**  
+  - Positioning Rating sits at 59.10%—slightly above average but not exceptional.  
+  - Signals: Potentially comfortable but not consistently leveraging off-angles or site-anchor discipline. Could be playing standard angles with limited off-peak repositioning or delayed rotational plays.
 
-- UTILITY INVESTMENT RETURN: Utility Rating of 54.47% reveals underutilization of utility in direct impact moments. It implies that either utility is not being deployed proactively for site executes, or it’s being spent reactively during lost rounds without precise coordination with teammates. The highest leverage for Arune lies in improving utility timing and sequencing to enable safer entries, post-plant holds, and information denial.
+- **Trade-Kill Susceptibility:**  
+  - With sub-elite positioning and average aggression, trade potential likely inconsistent.  
+  - Risk areas: static holds in heavy-traffic zones, lack of immediate trade support, and insufficient retreat-to-trade routes after entry or post-plant scenarios.
 
-- FLASH & SMOKE INTEGRATION: Data on timing is not explicit, but low overall Utility performance suggests that flashy deployment is not consistently integrated with team push timings. The player may benefit from standardized default execute scripts and post-plant protocols to maximize utility value. Improvement target: rehearse 2-3 map-specific default executes and post-plant plays, ensuring that smokes and flashes align with teammate callouts and entry routes.
+---
 
-SECTION 5: IDENTIFIED BAD HABITS & RECURRING TACTICAL FAULTS
+## SECTION 4: UTILITY & IMPACT MULTIPLIER
 
-1) HABIT 1 (GUNPLAY/MICRO MECHANICAL): Moving while bursting or continuously pressing spray beyond bullet six in extended trades. Evidence: high Aim Rating but mid-level Spray Accuracy with relatively low Headshot % suggests overcommit in extended exchanges without disciplined reset.
+- **Utility Investment Return:**  
+  - Utility Rating at 54.47% suggests average utilization. Likely proactive calls and tosses are not yielding outsized round advantage.  
+  - Needs improvement in timing and sequencing to maximize team executes (e.g., smoke/flash synergy with teammate executes, post-plant zoning).
 
-2) HABIT 2 (POSITIONING/ANGLING): Holding static, high-traffic angles without a reliable pivot or retreat path, leading to increased trade risk in sites with multiple entry points. Positioning rating coupled with average opening success indicates limited dynamic repositioning post-engagement.
+- **Flash & Smoke Integration:**  
+  - Data implies any timing gaps in default setups or post-plant protocols.  
+  - Actionable: implement standardized default smokes/flashes that align with map-wide post-plant plans and ensure pre- and post-plant utility windows are synchronized with teammates’ positions.
 
-3) HABIT 3 (UTILITY/GAME SENSE): Wasting early-round utility or delaying proactive usage, leading to insufficient execution support for teammates and missed opportunities to deny information or create space.
+---
 
-SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
+## SECTION 5: IDENTIFIED BAD HABITS & RECURRING TACTICAL FAULTS
 
-- OPTIMAL PARTNERING: Pair Arune with teammates who excel at micro-structured executes and can provide reliable support, such as a precise rifler or a secondary entry that can create crossfire lanes. A dedicated in-game leader-focus to call reserves and utility timings would complement Arune’s mechanical strengths. The ideal partner profile is a more methodical, information-rich support player who can funnel space creation and trades with precise utility under pressure.
+- **Habit 1 (Gunplay/Mechanical):**  
+  - Propensity to rely on raw flicks or full sprays in extended duels rather than controlled bursts with recoil management, leading to lower headshot conversion and inefficient damage output.
 
-- DEFAULT STRATEGIC POSITIONING: On maps where Arune can maximize space creation and pre-aim discipline, prioritize sites that allow off-angles and safe angles with strong retreat options. Examples: Mirage A-Default with defined entry parallels, Inferno B-drops with controlled window peeks, and Cobblestone-like site anchors that offer clear escape routes. The recommended approach is to leverage Arune as a primary or secondary entry with strong first contact, while a partner player drives the follow-up trade and utility timing.
+- **Habit 2 (Positioning/Angling):**  
+  - Tendency to engage from static or high-traffic angles without frequent cover pivots or adaptive repositioning. This reduces trade opportunities and increases susceptibility to trading pressure from opponents.
 
-- TEAM EXECUTION FRAMEWORK: Build plays around early-stage space creation via controlled peeks and pre-aimed lines, then immediately pivot to structured trades facilitated by teammates with strong support utility. Ensure post-plant setups incorporate Arune’s aggression by pairing him with players who can cover crossfires and create post-plant space with timely smokes and flashes.
+- **Habit 3 (Utility/Game Sense):**  
+  - Underutilization or mistimed utility in early rounds, with inconsistent integration into team-wide executes. This diminishes potential round win probability from coordinated plays.
 
-SECTION 7: ACTIONABLE DRILL ROADMAP
+---
 
-DRILL 1: AIM/MECHANICAL ROUTINE
-- MODULE: 30-45 minute daily Aim Recoil/Pre-aim practice
-- MAPS/MODES: Aim_Recoil, ReAL Bot, training maps focusing on micro-angles
-- PARAMETERS: 1000–1500 actions per session; 4-6 sets of 60-second rounds; focus on controlled bursts of 2-4 bullets, then reset
-- GOALS: Increase Headshot Accuracy by 5-8 percentage points; lower Reaction Time variability; improve consistency in first two bullets of engagements
+## SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
 
-DRILL 2: POSITIONING & ANGLE DISCIPLINE
-- MODULE: Deathmatch/solo-solo-offangle progression
-- FOCUS: Crosshair placement tracking, spine alignments, and off-angle exploitation
-- ACTIVITY: Practice top-down support angles with retreat routes; set a rule to pivot after 1-2 engagements; play 20-30 minutes with emphasis on not exposing core positions too long
-- GOALS: Increase positioning rating above 60 by end of month; reduce static angle holds; improve trade efficiency post-engagement
+- **Optimal Partnering:**  
+  - Pair with a teammate who excels at supportive, info-driven plays and entry support. A dedicated IGL/Support role or a player with strong mid-round utility usage can offset Arune’s reaction and positioning gaps.  
+  - Ideal pairing: a space-creating extraordinaire who can exploit Arune’s aim in mid-entry scenarios, with a second teammate ready to trade and hold after Arune’s initial engagement.
 
-DRILL 3: UTILITY & PROTOCOLS
-- MODULE: Core map utility lineups and timing practice
-- MAPS: Common maps from pool (e.g., Mirage, Inferno, Nuke)
-- PARAMETERS: 2-3 pre-set default executes; pair with entry routes and post-plant lines
-- GOALS: Raise Utility Rating to above 60 by practicing proactive entry utility; improve post-plant utility deployment and timing synchronization with teammates
+- **Default Strategic Positioning:**  
+  - On map archetypes, leverage Arune in roles that maximize aim-driven impact with safer angles and pre-aims.  
+  - Suggested placements: Mirage A-Long or Connector fights with support from a hard-utility user; Inferno mid-peek scenarios with team flash setup; Overpass A-site anchor with calculated smokes and a trade-ready standby.
 
-ADDITIONAL NOTES
-- Monitor progress weekly with updated metrics (Aim Rating, Positioning, Utility, Headshot Accuracy, Reaction Times) to ensure the drills translate into match performance.
-- Emphasize communication around utility usage and post-plant rotations to minimize misaligned calls and missed trades.
+- **Map-Specific Notes:**  
+  - Mirage: A-site entry/peel with a support player.  
+  - Inferno: Mid-control presence, using utility to create space for Arune’s entries.  
+  - Overpass: A/B splits enabling safer first contact and easier post-plant protection.
 
-END OF OUTPUT</div>
+---
+
+## SECTION 7: ACTIONABLE DRILL ROADMAP
+
+- **Drill 1 (Aim/Mechanical Routine):**  
+  - Map: Aim_Recoil, ReAL Bot, and Prefire maps.  
+  - Parameters: 3×5 minute blocks; execute 2–3 spray bursts per mag, focus on controlled recoil resets; practice 1–2 headshots per burst in mid-range; integrate occasional wall-bang peeks to simulate precise timings.  
+  - Goal: Improve spray discipline and headshot consistency; reduce unnecessary full-spray usage.
+
+- **Drill 2 (Positioning & Angle Discipline):**  
+  - Activity: 20–30 minute solo Deathmatch sessions emphasizing crosshair placement at common angles (25–45 degrees pre-aims) and pivoting between angles with minimal exposure.  
+  - Focus: Hold angles with minimal peeks; practice common site-entry angles; implement retreat-to-trade paths after engagement.
+
+- **Drill 3 (Utility & Protocols):**  
+  - Routine: Map-specific lineups and timing sheets for core maps; rehearse default execute sequences and post-plant setups with a designated secondary utility plan.  
+  - Execution: Run through 3–4 timed executes per map variant; coordinate with a teammate for pre-plant smokes and flashes; practice clearing common post-plant holds using smoke re-usage and additional flashes.
+
+---
+
+If you’d like, I can tailor the drills to Arune’s specific map pool and provide a 4-week progression plan with measurable KPIs (e.g., headshot% gains, spray accuracy improvements, reaction-time reduction targets).</div>
 </div><button class="tab-btn" onclick="openTab(event, 'player-76561198053114290')">Raiine</button>
 <div id="player-76561198053114290" class="player-panel">
   <h2>Raiine</h2>
-  <div class="markdown-body">SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
+  <div class="markdown-body">## SECTION 1: EXECUTIVE SUMMARY & ARCHETYPE EVALUATION
 
-- PLAYER PROFILE & ROLE CLASSIFICATION: Raiine presents as a versatile rifler with a higher Utility Rating (48.63) and Positioning Rating (44.83) relative to raw Aim (29.46) and Headshot Accuracy (12.69). This profile aligns with a space-creator or flexible supportive fragger who prioritizes map presence, trade potential, and utility-driven executions over pure high-FPS aim duels. The opening duel stats are mixed (CT Opening Duel Win Rate 41.17%, T Opening Duel Win Rate 33.19%), suggesting a capability to contest space but not consistently dominating first engagements. The overall win rate sits at 0.5172, indicating league-average performance with notable upside if macro factors are optimized.
+- **PLAYER PROFILE & ROLE CLASSIFICATION:** Raiine presents as a versatile rifler with solid utility and positioning affordances but elevated reaction-based metrics that may not fully translate into consistent impact. The mix of strong Positioning Rating (44.83) and Utility Rating (48.63) alongside moderate Aim Rating (29.46) suggests a hybrid role leaning toward space creation and support entry, rather than pure high-variance fragger or strict anchor. The Headshot Accuracy (12.69) is low for a dedicated AWPer/entry but can be a byproduct of multi-site responsibilities and high-rate engagements. Overall, the archetype leans toward Aggressive Entry/Space-Creator with significant teamplay utility usage, tempered by mechanical peak potential that currently caps ceiling.
 
-- PERFORMANCE CEILING BOTTLENECK: The dominant mechanical constraint appears to be Reaction Time inefficiency (716–742 ms recent/reaction time ranges) paired with comparatively low Headshot Accuracy (12.69%) and a moderate Spray Accuracy (28.60%). This combination implies a gap converting mechanical potential into clean, high-value headshots and controlled sprays in high-pressure scenarios. Macro factors likely include suboptimal crosshair placement leading to late or forced engagements, and potentially suboptimal utility timing that fails to maximize information advantage before duels.
+- **PERFORMANCE CEILING BOTTLENECK:** The dominant bottleneck appears to be Reaction Time (716–742 ms range) and relatively modest Headshot Accuracy (12.69%) given high Opening Duel and Duel success rates are not staggering across sides. This points to a structural latency in first-contact or suboptimal micro-angles before engagement, rather than purely aim-based downticks. Additionally, a sub-50% overall Headshot rate combined with decent spray/utility suggests reliance on utility and positioning rather than precise headshots in critical rounds.
 
-- IMPACT VS. EFFICIENCY RATIO: High Utility and Positioning enable Raiine to contribute to team executions and site control, but the relatively modest Aim and problematic Reaction Times dampen immediate round-winning potential in high-noise skirmishes. The data suggests Raiine may be converting utility and space creation into value unevenly, with spikes when the team sets favorable entry timings but revenue dips when duels extend past the first 1–2 bullets.
+- **IMPACT vs. EFFICIENCY RATIO:** The data indicates a reasonable impact profile but not a dominating one. Opening Duel Win Rates (CT: 41.17%, T: 33.19%) show inconsistent conversion of first-step advantages, hinting at marginal decision-making efficiency post-engagement or suboptimal follow-up trades. High Utility Rating implies strong secondary impact (utility usage, set pieces), but without commensurate gunplay efficiency in high-stakes rounds, impact per round may be limited.
 
-SECTION 2: DEEP MECHANICAL DIAGNOSTIC
+---
 
-- CROSSHAIR PLACEMENT & PRE-AIMING EFFICIENCY: The metrics imply a potential drift toward reliance on raw reactions rather than disciplined pre-aim progression. With Reaction Time around 716–742 ms, pre-aiming efficiencies are likely inconsistent, causing missed pre-fires or delayed peeks in contested angles. The relatively low Headshot Accuracy (12.69%) further supports a need for improved head-trajectory alignment and crosshair management during engagements.
+## SECTION 2: DEEP MECHANICAL DIAGNOSTIC
 
-- RECOIL & SPRAY DISCIPLINE: Spray Accuracy at 28.60% is not exceptionally high, indicating either insufficient recoil control training or suboptimal burst/reset routines. The combination of mid-tier Spray Accuracy with higher Headshot potential in bursts would be problematic; the player may benefit from structured recoil control drills and burst-then-recover patterns to preserve accuracy beyond the first 6–7 bullets.
+- **Crosshair Placement & Pre-Aiming Efficiency:**  
+  - The mix of high Positioning Rating and moderate Aim Rating suggests proficient pre-aim discipline and map awareness, but Headshot Accuracy of 12.69% signals that raw headshot conversion is not a core strength.  
+  - Time-to-damage dynamics are likely favorable for controlled trades in setups with solid crosshair placement, yet sub-150 ms pre-aim adjustments are not evident, aligning with a slower reaction window that can hinder immediate first-contact on unexpected peeks.
 
-- REACTION DELAY & ENGAGEMENT FIRST-TOUCH: The Reaction Time figure (716–742 ms) sits notably above pro-level expectations, suggesting a physical delay in initiating engagements or a tendency to wait for information before firing. Enemy Spotted Accuracy at 27.35% shows limited information gain from live reads; this could indicate a cautious approach or limited successful information gathering per round. The gap between reaction latency and opening duel win rates implies that once a duel starts, execution is not consistently optimal, possibly due to angle-holding or rapid decision-making demands.
+- **Recoil & Spray Discipline:**  
+  - Spray Accuracy at 28.60% is okay, not elite. Combined with relatively low Headshot %, this implies a tendency to rely on bursts or controlled spray only in certain ranges, with potential over-commitment to sprays in mid-range engagements.  
+  - The data suggests potential neglect of reset/shots in recoil management post-burst, which could waste bullets on longer sprays and reduce follow-up frag potential.
 
-SECTION 3: POSITIONING, ANGLING & OPENING DUEL MACRO
+- **Reaction Delay & Engagement First-Touch:**  
+  - Reaction Time metrics (716 ms to 742 ms, recent 742 ms) indicate a substantial physical reaction delay by modern CS2 standards. This is a probable limiting factor in initial duels, especially on pistol/eco rounds or unexpected site takes.  
+  - Enemy Spotted Accuracy at 27.35% is relatively decent, but the reaction bottleneck means opportunities from spotted enemies may not be converted into timely first contact or advantageous positions.
 
-- OPENING ENGAGEMENT EFFICIENCY: Opening Duel Win Rate shows CT 41.17% and T 33.19%, indicating Raiine wins more often when defending or holding favorable pre-sets but struggles to secure first-hit advantage on attack. This pattern often reflects reliance on structural advantages (site hold, utility setup) rather than proactive, high-precision peeking. There is potential to improve this by integrating pre-audited opening tactics and disciplined peeks that maximize first-shot potential.
+---
 
-- SPACE CREATION VS. SURVIVAL: Positioning Rating at 44.83 suggests strong awareness in space creation and site presence, but the combination with a lower reaction-based advantage implies that Raiine may be sustaining off-angle holds or anchor positions that are good for info and trade potential but risk being overexposed due to timing or retreat path miscalculations. The data indicates solid anchor discipline but could benefit from enhanced trade-kill planning and better spacing for post-engagement re-trades.
+## SECTION 3: POSITONING, ANGLING & OPENING DUEL MACRO
 
-- TRADE-KILL SUSCEPTIBILITY: With entry aggressiveness metrics showing CT Opening Aggression success rate at 33.10% and T Opening Aggression success rate at 30.43%, Raiine demonstrates a tempered aggression profile. This is not a high-risk, heavy entry role; rather, it aligns with cautious, information-led entries where team information and structure drive outcomes. However, the shift toward more confident, controlled aggression could raise overall team fragging impact without sacrificing safety.
+- **OPENING ENGAGEMENT EFFICIENCY:**  
+  - CT Opening Duel Win Rate: 41.17% and T Opening Duel Win Rate: 33.19% indicate moderate success in opening fights but not a decisive edge. Could reflect reliance on teammate-driven space creation or suboptimal first-contact timing.  
+  - The opening duel success is likely influenced by structural advantages (maps, sites) rather than raw individual skill in isolation.
 
-SECTION 4: UTILITY & IMPACT MULTIPLIER
+- **SPACE CREATION vs. SURVIVAL:**  
+  - Positioning Rating at 44.83 is strong, implying good off-angle usage and space creation. However, if this space creation isn't consistently traded or backed by support, it risks isolating Raiine and increasing death toll in pivotal rounds.  
+  - Evidence of potential trade fragility: trade-kill susceptibility is implied by moderate duel success and moderate opening rates, especially if Raiine frequently engages isolated duels without immediate backup.
 
-- UTILITY INVESTMENT RETURN: Utility Rating at 48.63 indicates Raiine contributes significantly via flashed lines, smoked windows, and support actions. The strength is in enabling executions and site advances, rather than purely fragging. The data implies utility is being used for both proactive site setups and reactive coverage, but without explicit timing alignment to post-plant scenarios, there may be inefficiencies in maximizing utility-driven round outcomes.
+- **TRADE-KILL SUSCEPTIBILITY:**  
+  - With high utility and positioning but middling headshot rate and reaction delays, Raiine may expose trade vulnerabilities when teammates are delayed or information is uncertain. Poor retreat paths or high-risk angles could amplify vulnerability in multi-site retakes or after commitment to initial duels.
 
-- FLASH & SMOKE INTEGRATION: Timing is critical for default setups and post-plant protocols. Raiine’s high Utility Rating suggests proficiency in line usage and team coordination, yet low headshot and reaction metrics imply that timed smoke/flash engagements could be better synchronized with teammates’ flash timings and entry orders. Improved drill work on timing windows for post-plant protection and clearing key chokepoints could augment impact.
+---
 
-SECTION 5: IDENTIFIED BAD HABITS & RECURRENT TACTICAL FAULTS
+## SECTION 4: UTILITY & IMPACT MULTIPLIER
 
-Habit 1 (Gunplay/Mechanical): Over-reliance on raw reaction rather than consistent pre-aim and micro-angles leads to lower headshot conversion in high-pressure duels. The reaction time lag combined with suboptimal crosshair discipline increases the chance of missing clean headshots early in skirmishes.
+- **UTILITY INVESTMENT RETURN:**  
+  - Utility Rating is robust (48.63) relative to overall round impact, suggesting Raiine contributes meaningfully with flashes/smokes, possibly enabling executes and retakes.  
+  - However, without parallel improvement in duel efficiency and reaction timing, utility impact may be underutilized in critical rounds where last-second flashes or smoke lineups decide post-plant success.
 
-Habit 2 (Positioning/Angling): Maintaining strong off-angles or anchor positions is commendable, but a tendency to remain static in high-traffic zones without pivoting to safer trade routes or advantageous retakes creates susceptibility to multi-angled harassment and failed trades. Retaliatory repositioning and safer retreat paths need reinforcement.
+- **FLASH & SMOKE INTEGRATION:**  
+  - The data hints at decent timing in default setups, but post-plant protocols and coordinated utility timing require further optimization. Mixed results in opening duels imply that utility timing should be tightened to maximize entry space creation and deny post-plant retakes.
 
-Habit 3 (Utility/Game Sense): Occasional overuse or mis-timed utility in early rounds or pre-sight reveal situations reduces team info efficiency. The player could benefit from tighter pre-commitment to utility sequences that align with team executes or retakes, rather than reactive throws in lost rounds.
+---
 
-SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
+## SECTION 5: IDENTIFIED BAD HABITS & RECURRING TACTICAL FAULTS
 
-- OPTIMAL PARTNERING: Pair Raiine with a teammate who excels at high-tempo pressure and entry force (a primary hard-fragger or space-creator) to complement Raiine’s space control and utility-driven role. The partner should be capable of converting openings through rapid, decisive duels, allowing Raiine to pressure off-angles and trade efficiently without needing to overextend.
+- **Habit 1 (Gunplay/Mechanical):**  
+  - Over-reliance on raw sprays in mid-range engagements without consistent reset or burst discipline, leading to inefficient bullet economy and missed opportunities in follow-up duels.
 
-- DEFAULT STRATEGIC POSITIONING: Raiine should anchor or hold second-wave positions on maps with flexible anchor requirements (e.g., Mirage A-Window, B-Site, or Anubis mid-control) where utility can shape the next move and where off-angle pressure can net trades without exposing to multi-angles. This aligns with the 44.83 positioning rating, enabling team rotations and controlled aggression.
+- **Habit 2 (Positioning/Angling):**  
+  - Tendency to hold high-traffic off-angles without sufficient cover pivots or early retreat paths, increasing exposure to multi-frag rounds and making revisits to trade opportunities harder.
 
-- MAP-SPECIFIC CALLS: Focus Raiine on setups that benefit from pre-placed utility and information-driven peeks. Leverage Raiine as a primary site anchor or support to enter post-plant lines with robust trade potential, rather than raw first-contact duels. Prioritize roles that maximize space creation while keeping angles safe and retrace paths clear.
+- **Habit 3 (Utility/Game Sense):**  
+  - Early-round utility usage not always aligned with teammate info or map-wide plans, potentially wasting valuable utilities on piecemeal picks rather than integrated team executes or post-plant control.
 
-SECTION 7: ACTIONABLE DRILL ROADMAP
+---
 
-Drill 1 (Aim/Mechanical Routine)
-- Purpose: Improve headshot conversion, pre-aim efficiency, and spray discipline.
-- Workshop maps and tools: Aim_Recoil, ReAL Bot, Prefire maps.
-- Execution parameters: 5x5 hard aim drills focusing on first-bullet accuracy from common engagement ranges, then controlled bursts with 3–5 bullet sprays. Emphasize resetting spray after 4–5 bullets, with 60–90 seconds per run, 4 sets per session, 4 days per week for 6 weeks.
-- Metrics to track: Headshot Percentage per drill, first-shot accuracy, total spray accuracy per session, time-to-kill consistency.
+## SECTION 6: SQUAD SYNERGY & STRATEGIC RECOMMENDATIONS
 
-Drill 2 (Positioning & Angle Discipline)
-- Purpose: Increase crosshair discipline, reduce static holding in high-traffic zones, improve trade potential.
-- Routine: Deathmatch or server soloing with focus on crosshair placement at common peeker angles, with mandatory pre-aim adjustments to 45-degree, 90-degree, and behind-wall pre-aims before engagements.
-- Execution parameters: 30-minute sessions, 4 days per week for 6 weeks, with a 2-minute review after each session to annotate angles that produced failed trades.
-- Metrics to track: Crosshair alignment consistency, average distance to optimal pre-aim angles, time-to-first-fire after peeking.
+- **OPTIMAL PARTNERING:**  
+  - Pair Raiine with a teammate who excels at real-time information gathering and rapid post-engagement follow-ups (e.g., a lurker or a secondary rifler with high trade potential). This mitigates Raiine's reaction time bottlenecks by ensuring quick trades and supporting engagements.  
+  - Ideal match-up as a space-creating entry alongside a secondary entry or support player who can convert space into structured takedowns and reliable post-plant plays.
 
-Drill 3 (Utility & Protocols)
-- Purpose: Synchronize utility usage with team plans, improve post-plant protocols.
-- Routine: Map-specific lineups for default execute and post-plant setups, followed by two-shell practice runs with teammates to confirm timing windows.
-- Execution parameters: Practice 3 full executes per map with replays to refine lineups; include 15-minute live-drill scrims focusing on timing windows; weekly review of utility usage logs.
-- Metrics to track: Utility accuracy (lineups executed correctly), consistency of timing with team calls, post-plant survivability rate and effective post-plant clearing.
+- **DEFAULT STRATEGIC POSITIONING:**  
+  - Map-specific roles:  
+    - Mirage A-Anchor/OP-leaning entry support with heavy emphasis on utility-driven control.  
+    - Inferno B-sight or CT-side hold with flexible off-angle presence to force CT rotations while keeping a safety ladder for retreat.  
+    - Train or Nuke default sites where Raiine can leverage strong positioning to enable executes while teammates handle raw duels.  
+  - Encourage Raiine to maintain disciplined crosshair placement during default holds, using utility to force enemy movements rather than peeking without information.
 
-FINAL NOTES
-- The diagnostics indicate Raiine has a strong macro toolkit (utility, positioning) but a measurable mechanical ceiling due to reaction times, headshot conversion, and spray discipline. Targeted drills should bridge the gap between strategic value and mechanical execution, leveraging Raiine as a pivotal utility-heavy anchor who can convert space into controlled advantage with improved pre-aiming and timing.
-- Ongoing monitoring is recommended with bi-weekly metric updates to adjust drills and in-game roles as performance shifts. Regular review with the coaching staff should focus on correlating utility-driven rounds with actual round wins to ensure a positive impact trajectory.</div>
-</div></div></div><script>function openTab(e,t){document.querySelectorAll(".player-panel").forEach(e=>e.classList.remove("active")),document.querySelectorAll(".tab-btn").forEach(e=>e.classList.remove("active")),document.getElementById(t).classList.add("active"),e.currentTarget.classList.add("active")}document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".tab-btn"),t=document.querySelector(".player-panel");e&&t&&(e.classList.add("active"),t.classList.add("active"))});</script></body></html>
+---
+
+## SECTION 7: ACTIONABLE DRILL ROADMAP
+
+- **Drill 1 (Aim/Mechanical Routine):**  
+  - Maps/Tools: Aim_Recoil, ReAL Bot, and Prefire maps (e.g., AWP training, burst control drills).  
+  - Protocol: 15 minutes of controlled burst drills (3-4 round bursts, 6-8 bullets per burst) on long-range lines, followed by 15 minutes of spray control with reset on wall. Emphasize hit-per-bullet economic discipline and headshot attempts in safe ranges.  
+  - Parameters: 60-80% recoil control accuracy, 2-3 headshots per session, average reaction-to-damage window under 200 ms in trained drills.
+
+- **Drill 2 (Positioning & Angle Discipline):**  
+  - Mode: Deathmatch + server soloing focusing on crosshair discipline and off-angle usage.  
+  - Protocol: 20 minutes of off-angle engagements (1-2 angles per map) with mandated pivot to safe retreat path after first contact. Include 10 minutes of default hold practice on key maps (e.g., Mirage, Inferno) emphasizing pre-aim against common common lines.  
+  - Goal: Reduce static high-traffic angle holds, improve pivoting and retake efficiency.
+
+- **Drill 3 (Utility & Protocols):**  
+  - Practice: Core map utility lineups and timing rehearsals for default executes and post-plant setups.  
+  - Protocol: 3 sets of 5-round scrims focused on executing predefined defaults with Raiine anchoring roles; ensure utility cements space and retake tools align with team callouts.  
+  - Goal: Synchronize utility usage with team information and improve timing in post-plant scenarios.
+
+---
+
+If you want, I can tailor the drills to Raiine’s specific map pool and provide a 6-week progression calendar with performance checkpoints.</div>
+</div>
+
+</div><script>marked.setOptions({breaks:true,gfm:true});document.querySelectorAll(".markdown-body").forEach(el=>{let t=el.textContent.replace(/ • /g,"\n\n- ").replace(/SECTION (\d+):/g,"\n\n## SECTION $1:");el.innerHTML=marked.parse(t)});const r=document.getElementById("raw-data"),t=document.getElementById("tab-container"),c=document.getElementById("content-area");if(r&&t&&c){r.querySelectorAll(".tab-btn").forEach(b=>t.appendChild(b));r.querySelectorAll(".player-panel").forEach(p=>c.appendChild(p))}function openTab(e,id){document.querySelectorAll(".player-panel").forEach(p=>p.classList.remove("active"));document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));const target=document.getElementById(id);if(target)target.classList.add("active");e.currentTarget.classList.add("active")}</script></body></html>
